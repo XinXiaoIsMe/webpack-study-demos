@@ -1,0 +1,10 @@
+body,
+html,
+p {
+  margin: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
