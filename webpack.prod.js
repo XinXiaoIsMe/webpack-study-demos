@@ -1,13 +1,13 @@
 const {
   resolve
 } = require('path')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin') // 生成index.html文件
+const MiniCssExtractPlugin = require('mini-css-extract-plugin') // 提取css到单独的文件夹
 const {
   CleanWebpackPlugin
-} = require('clean-webpack-plugin')
+} = require('clean-webpack-plugin') // 每次打包时清空先前打包后的文件
 const webpack = require('webpack')
-const ProgressBarWebpackPlugin = require('progress-bar-webpack-plugin')
+const ProgressBarWebpackPlugin = require('progress-bar-webpack-plugin') // 打包时显示进度条
 
 module.exports = {
   entry: './main.js',
