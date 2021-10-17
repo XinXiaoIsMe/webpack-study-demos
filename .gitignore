@@ -1,3 +1,5 @@
-node_modules
-dist
-.gitignore
+/node_modules
+/dist
+*.lock
+*.log
+.vscode

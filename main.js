@@ -11,3 +11,4 @@ Array.from({ length: 3 }).forEach(() => {
   console.log('success')
 })
 console.log(fn())
+console.log($('#app'))
